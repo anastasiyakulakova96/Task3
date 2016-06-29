@@ -1,0 +1,8 @@
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\bin\Debug\FileWorker.exe.config
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\bin\Debug\FileWorker.exe
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\bin\Debug\FileWorker.pdb
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\obj\Debug\FileWorker.csprojResolveAssemblyReference.cache
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\obj\Debug\FileWorker.exe
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\obj\Debug\FileWorker.pdb
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\obj\Debug\FileWorker.Resource.resources
+c:\users\настя\documents\visual studio 2015\Projects\FileWorker\FileWorker\obj\Debug\FileWorker.csproj.GenerateResource.Cache
