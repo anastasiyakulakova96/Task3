@@ -120,6 +120,9 @@
   <data name="fileTwo" xml:space="preserve">
     <value>D:\forCopy.txt</value>
   </data>
+  <data name="nameFile" xml:space="preserve">
+    <value>newFile.txt</value>
+  </data>
   <data name="path" xml:space="preserve">
     <value>D:\</value>
   </data>

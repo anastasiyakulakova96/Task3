@@ -70,6 +70,15 @@ namespace FileWorker {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to newFile.txt.
+        /// </summary>
+        internal static string nameFile {
+            get {
+                return ResourceManager.GetString("nameFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to D:\.
         /// </summary>
         internal static string path {

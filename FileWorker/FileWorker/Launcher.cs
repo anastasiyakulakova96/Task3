@@ -10,127 +10,110 @@ namespace FileWorker
 {
     class Launcher
     {
-        bool f = false;
-        string name;
+        bool flag = false;
+        string namefolder;
         string pathDirectory = Resource.path;
-        string pathToFileForCopy = "@"+Resource.fileTwo;
-        string nameFile = "nastya.txt";
+        string pathToFileForCopy = Resource.fileTwo;
+        string nameFile = Resource.nameFile;
         string path;
-        string pathwithNameFile;
+        string pathWithNameFile;
 
-
-        char[] invalidPathChars = Path.GetInvalidPathChars();
 
         static void Main(string[] args)
         {
             Launcher launcher = new Launcher();
-            //launcher.EnterNameFilder();
+
             launcher.CreateDirectory();
             launcher.CreateFile();
-            launcher.CopyFileToFile();
-
+            launcher.CopyInformationInAnitherFile();
 
             Console.ReadLine();
         }
 
-        bool IsValidFilename(string testName)
+        bool IsValidFilename(string name)
         {
             Regex containsABadCharacter = new Regex("[" + Regex.Escape(new String(Path.GetInvalidFileNameChars()) + "]"));
-            if (containsABadCharacter.IsMatch(testName))
-            {
-                f = false;
 
-                return false;
-            }
-            else
+            if (containsABadCharacter.IsMatch(name))
             {
-                f = true;
+                return false;
             }
             return true;
         }
 
 
-
-        public string EnterNameFilder()
+        public string EnterNameFolder()
         {
-           
-            Console.WriteLine(@"Please enter name filder without /\:*?<>| ");
+            Console.WriteLine(@"Please enter name folder without /\:*?<>| ");
 
-            while (f == false)
+            while (flag == false)
             {
-                name = Console.ReadLine();
-                if (IsValidFilename(name))
+                namefolder = Console.ReadLine();
+                flag = IsValidFilename(namefolder);
+
+                if (!flag)
                 {
-                    Console.WriteLine("Name file is good");
-                }
-                else
-                {
-                    Console.WriteLine("Please enter name of file again without invalid symbol");
+                    Console.WriteLine("Please enter name of folder again without invalid symbol");
                 }
             }
-
-
-            return name;
+            return namefolder;
         }
 
 
         public void CreateDirectory()
         {
             bool haveDir;
-            IEnumerable<string> directs = Directory.EnumerateDirectories(pathDirectory);
+
+            IEnumerable<string> directs = Directory.EnumerateDirectories(pathDirectory); //запись всех папок
+
             do
             {
                 haveDir = false;
-                string name = EnterNameFilder();
+                string name = EnterNameFolder();
                 foreach (string s in directs)
                 {
                     if (s.Contains(name))
                     {
-                        Console.WriteLine("this directory have");
+                        Console.WriteLine("Folder with this name exist");
                         haveDir = true;
-                        f = false;
+                        flag = false;
                         break;
                     }
                 }
             }
             while (haveDir);
 
-            path = pathDirectory + name;
-            Console.WriteLine(path);
-            Directory.CreateDirectory($@"{path}");
+            path = pathDirectory + namefolder;
 
+            Directory.CreateDirectory($@"{path}");
+            Console.WriteLine("Folder created.Path: " + path);
         }
 
 
         public void CreateFile()
         {
-            pathwithNameFile = path + @"\" + nameFile;
-            File.Create(pathwithNameFile).Close();
-
-            Console.WriteLine(pathwithNameFile);
-
+            pathWithNameFile = path + @"\" + nameFile;
+            File.Create(pathWithNameFile).Close();
+            Console.WriteLine("Path with name of file: " + pathWithNameFile);
         }
 
 
-        public void CopyFileToFile()
+        public List<String> CopyInformationInAnitherFile()
         {
-            int i = 0;
-            List<string> linesList = new List<string>();
-            IEnumerable<string> lines = File.ReadLines(@"d:\forCopy.txt");
-            foreach(string line in lines)
+            List<String> fileStrings = new List<String>();
+
+            StreamReader fs = new StreamReader(pathToFileForCopy);
+            String bufStr = fs.ReadLine();
+
+            int count = 1;
+            while ((bufStr != null) && (count <= 20))
             {
-                linesList.Add(line);
-                Console.WriteLine(line);
-                i++;
-                if(i == 20)
-                {
-                    break;
-                }
+                fileStrings.Add(bufStr);
+                bufStr = fs.ReadLine();
+                count++;
             }
-            
-           File.WriteAllLines(pathwithNameFile, linesList);
+            File.WriteAllLines(pathWithNameFile, fileStrings);
+            return fileStrings;
         }
     }
-
-  
 }
