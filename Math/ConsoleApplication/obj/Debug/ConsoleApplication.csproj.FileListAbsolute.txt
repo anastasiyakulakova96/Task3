@@ -8,3 +8,13 @@ c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleA
 c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
 C:\Users\Anastasiya_Kulakova\Documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.Resource.resources
 C:\Users\Anastasiya_Kulakova\Documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.GenerateResource.Cache
+C:\Task3\Task3\Math\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Task3\Task3\Math\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Task3\Task3\Math\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Task3\Task3\Math\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Task3\Task3\Math\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Task3\Task3\Math\ConsoleApplication\bin\Debug\Math.dll
+C:\Task3\Task3\Math\ConsoleApplication\bin\Debug\Math.pdb
+C:\Task3\Task3\Math\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Task3\Task3\Math\ConsoleApplication\obj\Debug\ConsoleApplication.Resource.resources
+C:\Task3\Task3\Math\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.GenerateResource.Cache

@@ -7,96 +7,58 @@ using System.Threading.Tasks;
 namespace Mathematics
 {
     public class Math1
-    {
-        public static double a;
-        public static double b;
-        public static double c;
+    { 
+        public double a;
+        public double b;
+        public double c;
         public static double x1;
         public static double x2;
         public static double discriminant;
         public static double x1x2;
-        public static string countNumbersAfterVirgule = "0.00";
 
-        public void Split(List<Double> coefficientsList, string caseSwitch)
+        public Math1(double a, double b)
         {
-            if (caseSwitch.Equals("1"))
-            {
-                a = coefficientsList[0];
-                b = coefficientsList[1];
-            }
-            else if (caseSwitch.Equals("2"))
-            {
-                a = coefficientsList[0];
-                b = coefficientsList[1];
-                c = coefficientsList[2];
-            }
+            this.a = a;
+            this.b = b;
         }
 
-        public static double LinearEquation()
+        public Math1(double a, double b, double c) : this(a, b)
         {
-            if (a == 0 && b == 0)
-            {
-                Console.WriteLine("Equation have any solution ");
-            }
-            else if (a == 0)
-            {
-                Console.WriteLine("Equation doesn't have solutions");
-            }
-            else
-            {
-                x1 = (-b) / a;
-                Console.WriteLine("x= " + x1.ToString(countNumbersAfterVirgule));
-            }
-            return x1;
+            this.c = c;
         }
 
-        public static bool Descrriminant()
+        public double LinearEquation()
         {
-
-            if (a == 0 && b == 0 && c == 0)
-            {
-                Console.WriteLine("Equation have any solution ");
-                return false;
-            }
-            else if ((a == 0 && b == 0) || a == 0)
-            {
-                Console.WriteLine("Equation doesn't have solutions");
-                return false;
-            }
-
-            else
-            {
-                discriminant = ((b * b) - 4 * a * c);
-            }
-            return true;
+            return ((-b) / a);
         }
 
-        public static string QuadraticEquation()
+        public double Descrriminant()
         {
-            bool desc = Descrriminant();
-            if (desc == true)
-            {
-                Console.WriteLine("discriminant= " + discriminant);
-                if (discriminant > 0)
-                {
-                    x1 = ((-b) + Math.Sqrt(discriminant)) / (2 * a);
-                    x2 = ((-b) - Math.Sqrt(discriminant)) / (2 * a);
-                    Console.WriteLine("x1= " + x1.ToString(countNumbersAfterVirgule));
-                    Console.WriteLine("x2= " + x2.ToString(countNumbersAfterVirgule));
+            return ((b * b) - 4 * a * c);
+        }
 
-                    return x1 + " " + x2;
-                }
-                else if (discriminant == 0)
-                {
-                    x1 = ((-b)) / (2 * a);
-                    Console.WriteLine("x1=x2= " + x1.ToString(countNumbersAfterVirgule));
-                }
-                else if (discriminant < 0)
-                {
-                    Console.WriteLine("discriminant <0 ");
-                }
+        public double[] QuadraticEquation(double descrriminant)
+        {
+            double[] results = null;
+            if (discriminant > 0)
+            {
+                results = new double[2];
+
+                x1 = ((-b) + Math.Sqrt(discriminant)) / (2 * a);
+                x2 = ((-b) - Math.Sqrt(discriminant)) / (2 * a);
+
+                results[0] = x1;
+                results[1] = x2;
             }
-            return x1 + "";
+            else if (discriminant == 0)
+            {
+                results = new double[1];
+
+                x1 = ((-b)) / (2 * a);
+
+                results[0] = x1;
+            }
+            return results;
         }
     }
 }

@@ -3,3 +3,8 @@ c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\bin
 c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\obj\Debug\Mathematics.csprojResolveAssemblyReference.cache
 c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\obj\Debug\Math.dll
 c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\obj\Debug\Math.pdb
+C:\Task3\Task3\Math\Math\bin\Debug\Math.dll
+C:\Task3\Task3\Math\Math\bin\Debug\Math.pdb
+C:\Task3\Task3\Math\Math\obj\Debug\Mathematics.csprojResolveAssemblyReference.cache
+C:\Task3\Task3\Math\Math\obj\Debug\Math.dll
+C:\Task3\Task3\Math\Math\obj\Debug\Math.pdb
