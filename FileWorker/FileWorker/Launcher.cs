@@ -10,13 +10,13 @@ namespace FileWorker
 {
     class Launcher
     {
-        bool flag = false;
-        string namefolder;
-        string pathDirectory = Resource.path;
-        string pathToFileForCopy = Resource.fileTwo;
-        string nameFile = Resource.nameFile;
-        string path;
-        string pathWithNameFile;
+        public bool flag = false;
+        public string namefolder;
+        public string pathDirectory = Resource.path;
+        public string pathToFileForCopy = Resource.fileTwo;
+        public string nameFile = Resource.nameFile;
+        public string path;
+        public string pathWithNameFile;
 
 
         static void Main(string[] args)
@@ -30,7 +30,7 @@ namespace FileWorker
             Console.ReadLine();
         }
 
-        bool IsValidFilename(string name)
+        public bool IsValidFilename(string name)
         {
             Regex containsABadCharacter = new Regex("[" + Regex.Escape(new String(Path.GetInvalidFileNameChars()) + "]"));
 
