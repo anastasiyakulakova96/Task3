@@ -1,0 +1,5 @@
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\bin\Debug\Math.dll
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\bin\Debug\Math.pdb
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\obj\Debug\Mathematics.csprojResolveAssemblyReference.cache
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\obj\Debug\Math.dll
+c:\users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\Math\obj\Debug\Math.pdb

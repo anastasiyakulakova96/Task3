@@ -1,0 +1,10 @@
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\bin\Debug\Math.dll
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\bin\Debug\Math.pdb
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+c:\Users\anastasiya_kulakova\documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\Anastasiya_Kulakova\Documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.Resource.resources
+C:\Users\Anastasiya_Kulakova\Documents\visual studio 2015\Projects\Math\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.GenerateResource.Cache

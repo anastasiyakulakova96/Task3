@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Math\Mathematics.csproj", "{B0B10CE2-3324-471C-9886-E55C76184FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{7FC945B3-E7B4-4705-B84B-D63CC9076508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0B10CE2-3324-471C-9886-E55C76184FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B10CE2-3324-471C-9886-E55C76184FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B10CE2-3324-471C-9886-E55C76184FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B10CE2-3324-471C-9886-E55C76184FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC945B3-E7B4-4705-B84B-D63CC9076508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC945B3-E7B4-4705-B84B-D63CC9076508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC945B3-E7B4-4705-B84B-D63CC9076508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC945B3-E7B4-4705-B84B-D63CC9076508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
