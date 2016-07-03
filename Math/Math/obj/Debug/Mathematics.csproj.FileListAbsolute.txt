@@ -8,3 +8,13 @@ C:\Task3\Task3\Math\Math\bin\Debug\Math.pdb
 C:\Task3\Task3\Math\Math\obj\Debug\Mathematics.csprojResolveAssemblyReference.cache
 C:\Task3\Task3\Math\Math\obj\Debug\Math.dll
 C:\Task3\Task3\Math\Math\obj\Debug\Math.pdb
+F:\Task3\Math\Math\bin\Debug\Math.dll
+F:\Task3\Math\Math\bin\Debug\Math.pdb
+F:\Task3\Math\Math\obj\Debug\Mathematics.csprojResolveAssemblyReference.cache
+F:\Task3\Math\Math\obj\Debug\Math.dll
+F:\Task3\Math\Math\obj\Debug\Math.pdb
+G:\Task3\Math\Math\bin\Debug\Math.dll
+G:\Task3\Math\Math\bin\Debug\Math.pdb
+G:\Task3\Math\Math\obj\Debug\Mathematics.csprojResolveAssemblyReference.cache
+G:\Task3\Math\Math\obj\Debug\Math.dll
+G:\Task3\Math\Math\obj\Debug\Math.pdb

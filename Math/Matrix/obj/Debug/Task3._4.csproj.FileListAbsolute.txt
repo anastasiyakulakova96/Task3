@@ -1,0 +1,3 @@
+G:\Task3\Math\Task3._4\bin\Debug\Matrix.exe.config
+G:\Task3\Math\Task3._4\obj\Debug\Matrix.exe
+G:\Task3\Math\Task3._4\obj\Debug\Matrix.pdb

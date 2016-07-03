@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Mathematics
 {
     public class Math1
-    { 
+    {
         public double a;
         public double b;
         public double c;
@@ -37,7 +37,7 @@ namespace Mathematics
             return ((b * b) - 4 * a * c);
         }
 
-        public double[] QuadraticEquation(double descrriminant)
+        public double[] QuadraticEquation(double discriminant)
         {
             double[] results = null;
             if (discriminant > 0)
@@ -49,6 +49,7 @@ namespace Mathematics
 
                 results[0] = x1;
                 results[1] = x2;
+
             }
             else if (discriminant == 0)
             {
@@ -60,5 +61,10 @@ namespace Mathematics
             }
             return results;
         }
+
+
     }
+  
+
+  
 }
